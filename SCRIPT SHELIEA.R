@@ -1,12 +1,3 @@
-#MEMBANDINGKAN DENGAN SCIPT NURUL DAN MENCARI MANA YANG LEBIH PAHAM
-
-#MEMAHAMI ALUR ANALISISNYA KARENA KEMUNGKINAN TIDAK MASALAH MENGGUNAKAN MB NURUL TAPI JURNAL UTAMA MBA WAHYU
-#KARENA NAMANYA MODIFIKASI YANG PENTING MASIH BERALUR SALAM
-#TAPI KAN NANTI METODE PENELITIANNYA BERBEDA
-#BESOK DITANYAKAN MAU MENGGUNAKAN YANG MANA
-#KALAU JURNALNYA KAYA MBA WAHYU TAPI ANALISISNYA SEPERTI MBA NURUL BAGAIMANA
-#CARI PERBEDAAN ANTARA SKRIPSI KAMU DENGAN MBA NURUL
-#OKE SEMANGATTT
 #Input Data
 #MENYESUAIKAN DENGAN CODING MB NURUL
 dataa=read.delim("clipboard",header=TRUE)
@@ -343,10 +334,3 @@ pspline.dua<-function(respon,pred1,pred2,pred3,pred4)
   plot(Xurut,fstar,type="l",xlim=c(min(Xurut),max(Xurut)),ylim=c(min(y),max(y)),xlab="prediktor",ylab="respon")
 }
 pspline.dua(dataa$y,dataa$x1,dataa$x2)
-#carioptimal(dataa$Y,dataa$X1,dataa$X2, dataa$X3)
-#carioptimal(dataa$Y,dataa$X2)
-#carioptimal(dataa$Y,dataa$X3)
-#carioptimal(dataa$Y,dataa$X4)
-#pspline.empat(dataa$Y,dataa$X1,dataa$X2,dataa$X3,dataa$X4)
-
-
